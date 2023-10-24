@@ -1,6 +1,6 @@
 import os , random
 
-for i in range(102):
+for i in range(500):
     d = str(i) + 'days ago'
     rand = random.randrange(1, 20)
     with open('test.txt','a') as file:
